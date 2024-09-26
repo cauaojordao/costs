@@ -6,6 +6,7 @@ import Projects from "./components/pages/Projects";
 import Container from "./components/layout/Container";
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
+import NewProject from "./components/pages/NewProject";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route exact path="/empresa" element={<Empresa />} />
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path="/projects" element={<Projects />} />
+          <Route exact path="/newproject" element={<NewProject />} />
         </Routes>
       </Container>
       <Footer />
