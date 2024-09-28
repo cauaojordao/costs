@@ -18,8 +18,6 @@ function NewProject() {
     })
       .then((resp) => resp.json())
       .then((data) => {
-        console.log(data);
-
         const state = { message: "Projeto criado com sucesso!" };
         navigate("/projects", { state });
       })

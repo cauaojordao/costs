@@ -5,6 +5,7 @@ function Input({ type, text, name, placeholder, handleOnChange, value }) {
     <div className={styles.formControl}>
       <label htmlFor={name}>{text}:</label>
       <input
+        required
         type={type}
         name={name}
         id={name}
